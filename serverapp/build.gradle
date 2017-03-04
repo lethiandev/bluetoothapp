@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/bluecove-2.1.0.jar')
+    compile files('libs/bluecove-gpl-2.1.0.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
